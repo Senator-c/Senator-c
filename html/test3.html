@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            /* border: 2px solid black; */
+            width: 194px;
+            height: 214px;
+            background-color: #9C28B1;
+            display: flex;
+            flex-direction: column;
+        }
+        .container .first-line
+        {
+            /* border: 1px solid white; */
+            height: 70px;
+            display: flex;
+            flex-direction: row;
+        }
+        .container .first-line .box-1
+        {
+            border: 1px solid #F44236;
+            width: 60%;
+            height: inherit;
+            background-color: #F44236;
+            display: flex;
+        }
+        .container .first-line .box-1 .one
+        {
+            display: flex;
+            align-self: center;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            
+        }
+        .container .first-line .box-2
+        {
+            border: 1px solid #FF9700;
+            width: 40%;
+            height: 142px;
+            background-color: #FF9700;
+            display: flex;
+        }
+        .container .first-line .box-2 .two
+        {
+            display: flex;
+            align-self: center;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+        }
+        .container .second-line
+        {
+            /* border: 1px solid black; */
+            height: 72px;
+            display: flex;
+            width: 60% ;
+            flex-direction: row;
+        }
+        .container .second-line .box-1
+        {
+            border: 1px solid #4CB050;
+            width: 77.2px;
+            height: 142px;
+            background-color: #4CB050;
+            display: flex;
+        }
+        .container .second-line .box-1 .four
+        {
+            display: flex;
+            align-self: center;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            
+        }
+        .container .second-line .box-2
+        {
+            /* border: 1px solid #fff; */
+            width: 41.19px;
+            height: 144px;
+            display: flex;
+            flex-direction: column;
+        }
+        .container .second-line .box-2 .inbox-1
+        {
+            border: 1px solid #9C28B1;
+            background-color: #9C28B1;
+            height: 72px;
+        }
+        .container .second-line .box-2 .inbox-1 .five
+        {
+            display: flex;
+            align-self: center;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+        }
+        .container .second-line .box-2 .inbox-2
+        {
+            /* border: px solid #2196F3; */
+            height: 70px;
+            width: 119px;
+            background-color: #2196F3;
+            
+        }
+        .container .second-line .box-2 .inbox-2 .three
+        {
+            display: flex;
+            align-self: center;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+        }
+
+
+       
+
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first-line">
+            <div class="box-1">
+                <p class="one">1</p>
+            </div>
+
+            <div class="box-2">
+                <p class="two">2</p>
+            </div>
+        </div>
+
+        <div class="second-line">
+            <div class="box-1">
+                <p class="four">4</p>
+            </div>
+            <div class="box-2">
+                <div class="inbox-1">
+                    <p class="five">5</p>
+                </div>
+
+                <div class="inbox-2">
+                    <p class="three">3</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="test3.js"></script>
+</body>
+</html>
